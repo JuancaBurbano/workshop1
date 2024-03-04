@@ -9,7 +9,7 @@ El estado de este proyecto esta finalizado, ya se realizaron todos los puntos qu
 
 ## Contenido del proyecto
 
-Este proyecto contiene 3 archivow en si, muy sencillos cada uno para la facil elavoracion y llevada a cabo del proyecto. 
+Este proyecto contiene 3 archivos en si, muy sencillos cada uno para la facil elavoracion y llevada a cabo del proyecto. 
 1. Workshop.ypynb: Un cuaderno de jupyter en el cual se hace todo el proceso para la coneccion al gestor de bases de datos, la creacion de la base y de las tablas como tal, asi como la inyeccion de los datos a estas tablas. (tablas en general porque más adelante se mostrara un proceso que involucra crear una nueva tabla)
 2. candidates.csv: Este archivo es nuestra fuente de datos, un tipo CSV, donde almacena todos nuestros datos ceparados por (Comas).
 3. credentials.json : Este es un archivo que ustedes mismos a la hora de correr el codigo debe gestionar, puesto que por razones se seguridad no puedo proporcionales mis credenciales para acceder a la base de datos, y ocurriria un error puesto qeu no son las mismas credenciales con su base de datos, mas adelante se les mostrara el proceso para que puedan correr esto sin ningun problema.
@@ -43,7 +43,7 @@ Lo primero que debes hacer es ir al cuaderno workshop.ipynb el cual contiene la 
 
 Rellena la información del json con la tuya, pero aun no coloques nada en databes, pues aun no la hemos creado.
 
--Este proyecto tiene como gestor de bases de datos, MySQL, entonces si aunn no lo tienes, descargalo y haz el proceso de instalación, puedes descargarlo mediante el siguiente link: 
+- Este proyecto tiene como gestor de bases de datos, MySQL, entonces si aunn no lo tienes, descargalo y haz el proceso de instalación, puedes descargarlo mediante el siguiente link: (https://dev.mysql.com/downloads/installer/)
 
 
 Continuando, ya teniendo el gestor de base de datos vamos a proceder a la conexón. La siguiente celda de codigo, nos hace la coneccion trayendo el json que tenemos como credentials para usar esas "credenciales" al momento de hacer la conexión.
@@ -68,7 +68,7 @@ Asi deberia quedarte el json, claramente en user y en password, tus credenciales
 
 - Ya tenemos la coneccion al gestor, ya tenemos creada la base de datos, y ya tenemos la tabla con datos, procederemos a hacer un EDA a esta tabla que nos quedo, para las siguientes celdas de EDA no debes hacer ninguna configuración, solamente corres la celdas y puedes ver las conclusiones a las que se llego haciendo el Analisis Exploratorio de Datos.
 
--Creación de la nueva tabla: Despues de haber terminado el EDA se nos solicita que creemos una nueva tabla donde los candidatos que en las columnas TechnicalviewScore y CodeChallengeScore sean mayores que 7, se creara una nueva colomna en esta nueva tabla que apruebe al candidato en numeros binarios 0 y 1. Donde 1 quiere decir que si aplico y 0 es que no. Entonces corremos sin ningun problema las celdas que nos verifican los candidatos con estos resultaods.
+- Creación de la nueva tabla: Despues de haber terminado el EDA se nos solicita que creemos una nueva tabla donde los candidatos que en las columnas TechnicalviewScore y CodeChallengeScore sean mayores que 7, se creara una nueva colomna en esta nueva tabla que apruebe al candidato en numeros binarios 0 y 1. Donde 1 quiere decir que si aplico y 0 es que no. Entonces corremos sin ningun problema las celdas que nos verifican los candidatos con estos resultaods.
 (Corre la celda)
 
 - Añadimos la tabla: Hacemos el mismo proceso que al momento de crear la primera tabla, se hace automatico con el .cursor asi que solo debes correr la celda para que se cree esta nueva tabla en la base de datos.
@@ -82,6 +82,10 @@ Asi deberia quedarte el json, claramente en user y en password, tus credenciales
 
 ## Pruebas de funcionamiento
 En el anterior punto mostramos el paso a paso de como se corre este proyecto, en este se mostraran las pruebas y outputs que se realizan al momento de correr el proyecto.
+
+Despues de haber instalado las librerias necesarias procedemos a crear el archivo de credentials.json y hacer la conexión, tendriamos un output asi:
+
+(https://github.com/JuancaBurbano/workshop1/blob/master/Conecci%C3%B3n.png)
 
 ## Muestras de power BI
 
