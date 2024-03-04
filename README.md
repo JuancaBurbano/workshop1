@@ -83,10 +83,8 @@ Asi deberia quedarte el json, claramente en user y en password, tus credenciales
 ## Pruebas de funcionamiento
 En el anterior punto mostramos el paso a paso de como se corre este proyecto, en este se mostraran las pruebas y outputs que se realizan al momento de correr el proyecto.
 
-Despues de haber instalado las librerias necesarias procedemos a crear el archivo de credentials.json y hacer la conexión, tendriamos un output asi:
-
-(https://github.com/JuancaBurbano/workshop1/blob/master/Conecci%C3%B3n.png)
-
+Disponibles las muestras graficas en el siguiente documento o tambien en el informe: (https://docs.google.com/document/d/1uYlP_68EkMxUuMG5akHnbwSeNw25LtWMjek6rTcp234/edit?usp=sharing)
+ 
 ## Muestras de power BI
 
 ## Conclusiones
