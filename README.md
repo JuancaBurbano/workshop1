@@ -24,7 +24,7 @@ The commands to download this project are the basic ones...
 - Create a folder where you will store the project
 - Open it with your favorite (code manager) in this case we will use Visual Studio Code.
 - Create a new terminal
-- Do a git commit https://github.com/JuancaBurbano/workshop1
+- Do a git clone https://github.com/JuancaBurbano/workshop1
 
 And ready you have the project, now you must run it, for this to happen without any problem this is what you should do...
 
