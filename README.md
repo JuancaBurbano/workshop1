@@ -10,10 +10,11 @@ The status of this project is finished, all the points that were requested have 
 
 ## Content of the project
 
-This project contains 3 files in itself, very simple each one for the easy elaboration and implementation of the project.
+This project contains 4 files in itself, very simple each one for the easy elaboration and implementation of the project.
 1. Workshop.ypynb: A jupyter notebook in which all the process for the connection to the database manager, the creation of the database and the tables as such, as well as the injection of the data to these tables (tables in general because later we will show a process that involves creating a new table).
 2. candidates.csv: This file is our data source, a CSV type, where we store all our data separated by commas.
 3. credentials.json : This is a file that you must manage yourselves when running the code, since for security reasons I can not provide my credentials to access the database, and an error would occur since they are not the same credentials with your database, later you will be shown the process so you can run this without any problem.
+4. requirements.txt : This File it contains all the libraries we need to run our project and is the first cell needed when running the notebook.
 
 As a bonus when inserting the data to the tables, a new file called candidates2.csv will be created, which contains the information for the second table.
 
@@ -30,7 +31,7 @@ And ready you have the project, now you must run it, for this to happen without 
 
 The first thing to do is to go to the workshop.ipynb notebook which contains the information necessary for that functions. This notebook is explained step by step in each cell how to apply the code, likewise in this readme I will also provide you with this information.
 
-- Install the libraries: The first cell that appears in the notebook is about the libraries that we are going to use in this project (You must run this cell).
+- Install the libraries: The first cell that appears in the notebook is about the libraries that we are going to use in this project (You must run this cells).
 - Create your credentials.json file: As the name suggests, you must create this file "credentials.json", it will have the following information...
 ```
 {
@@ -87,6 +88,11 @@ In the previous point we showed the step by step of how to run this project, thi
 
 The graphical samples are available in the following document or also in the report: (https://docs.google.com/document/d/1uYlP_68EkMxUuMG5akHnbwSeNw25LtWMjek6rTcp234/edit?usp=sharing)
  
-## Conclusiones
+## Dashboards
 
+We work in power BI for do the dashboards and the information interactive, if you want watch the virtuals dashboards are in this link **[Dashboards](https://app.powerbi.com/view?r=eyJrIjoiZmZkNWE1NzEtYjIyZS00MTRlLTk5YzgtYWE4OTc2NmQwNDdlIiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9)**
+
+## Report
+
+In this link is the report made on this project, the conclusions and detailed information: **[Report](https://docs.google.com/document/d/1Nezk8f3rXtZIC4NJBJeDcUSTtprbIX5r7MCYsRxj-s0/edit?usp=sharing)**
 
